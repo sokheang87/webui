@@ -5,6 +5,7 @@ A 9:16 (720×1280, 30 fps) code-rendered animation with narration, captions, mus
 - `index.html` — the animation (open it in a browser for a live preview)
 - `audio.py` — synthesises the soundtrack
 - `voice.py` — synthesises the narration with Piper (voice: en-us-libritts-high, LibriTTS, CC BY 4.0, speaker 3) and mixes it over the music
+- `voice_elevenlabs.py` — generates the narration with an ElevenLabs voice and mixes it over the music (used for the current video)
 - `render.mjs` — renders the frames with headless Chromium and encodes with ffmpeg
 - `save-first.mp4` — the finished video
 
